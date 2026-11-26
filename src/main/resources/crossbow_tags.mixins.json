@@ -1,0 +1,8 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "dev.crossbowtags.mixin",
+	"compatibilityLevel": "${mixin_compat}",
+	"client": ["ItemRenderMixin"],
+	"injectors": { "defaultRequire": 1 }
+}

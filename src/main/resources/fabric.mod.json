@@ -1,0 +1,21 @@
+{
+	"schemaVersion": 1,
+	"id": "crossbow_tags",
+	"version": "${version}",
+	"name": "Crossbow Tags",
+	"description": "Flashes a light-green background behind Piercing crossbows and a light-red one behind Multishot crossbows in your hotbar and inventory, so you always grab the right one mid-fight.",
+	"authors": ["Crossbow Tags"],
+	"license": "MIT",
+	"icon": "assets/crossbow_tags/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"eagerlib": ["dev.crossbowtags.CrossbowTags"]
+	},
+	"mixins": ["crossbow_tags.mixins.json"],
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "${minecraft_dep}",
+		"java": ">=${java_version}",
+		"eagerlib": "${eagerlib_dep}"
+	}
+}
